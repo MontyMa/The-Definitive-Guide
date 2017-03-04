@@ -49,7 +49,7 @@ console.log(sum);
 function getRes(obj) {
     let total = 0;
 
-    for (elem in obj) {
+    for (let elem in obj) {
         console.log(elem + '' === elem); //true
         total += obj[elem + '']
     }
